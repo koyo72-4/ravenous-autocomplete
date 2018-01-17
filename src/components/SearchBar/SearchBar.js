@@ -131,7 +131,7 @@ class SearchBar extends React.Component {
           <select
             id="Radius"
             onChange={this.handleRadiusChange}>
-            <option value={0}>Speciy a search radius</option>
+            <option value={0}>Specify a search radius</option>
             <option value={10000}>10000 meters (6.2 miles)</option>
             <option value={25000}>25000 meters (15.5 miles)</option>
             <option value={40000}>40000 meters (24.9 miles)</option>
