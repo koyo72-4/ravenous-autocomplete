@@ -1,0 +1,3 @@
+const apiKey = 'Uy4BWbJgIf0QBqIpob4plSGW8YQRKg-onvWgEDiXkUysG42VRrrdP4xa6U0_d1Y5Pxy8Vh6eD4sq88PIFhpabQ85nL3PqpG41Stx1oRp8GuKGUbf-hMeGaAX9CVdWnYx';
+
+export default apiKey;
