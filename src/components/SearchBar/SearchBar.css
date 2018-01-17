@@ -21,6 +21,8 @@
   border-bottom: 1px solid #fff;
   padding: 0 2.58rem .33rem 2.58rem;
   transition: color 0.25s;
+  display: flex;
+  align-items: flex-end;
 }
 
 .SearchBar-sort-options li:hover {
@@ -36,7 +38,7 @@
 .SearchBar-fields {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.88rem;
+  margin-bottom: 2rem;
 }
 
 .SearchBar-fields input {
@@ -55,6 +57,7 @@
 
 .SearchBar-submit {
   text-align: center;
+  width: 100%;
 }
 
 .SearchBar-submit a {
@@ -63,12 +66,39 @@
   background-color: #cca353;
   color: #ffffff;
   font-weight: 600;
+  margin-left: 27%;
   transition: background-color .5s;
+  margin-right: 15px;
 }
 
 .SearchBar-submit a:hover {
   cursor: pointer;
   background-color: #a7874b;
+}
+
+.Number-results {
+  width: 25%;
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.Number-results ul {
+  display: inline-block;
+}
+
+.Number-results ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.Number-results ul li:hover {
+  color: #d4cfcf;
+  cursor: pointer;
+}
+
+.Number-results ul li.active {
+  color: #f0c36c;
 }
 
 @media only screen and (max-width: 560px) {
