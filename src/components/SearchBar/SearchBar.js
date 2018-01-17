@@ -142,7 +142,7 @@ class SearchBar extends React.Component {
           </a>
           <div className="Number-results">
             <ul>
-              {this.renderResultOptions}
+              {this.renderResultOptions()}
             </ul>
           </div>
         </div>
